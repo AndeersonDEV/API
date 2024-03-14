@@ -4,8 +4,9 @@ async function listaProjetosAnderson(){
         const buscaConvertida = await busca.json()
     
         return buscaConvertida
-            
+        // console.log(buscaConvertida)
 }
+// listaProjetosAnderson()
  export const conectaApi = {
     listaProjetosAnderson
  }

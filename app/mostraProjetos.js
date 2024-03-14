@@ -15,7 +15,7 @@ function constroiTabela(titulo, descricao, status, motivo){
 }
 
 async function listaProjetos(){
-    const listaAPI = await conectaApi.listaProjetos();
+    const listaAPI = await conectaApi.listaProjetosAnderson();
     listaAPI.forEach(elemento => lista.appendChild(
         constroiTabela(elemento.titulo, elemento.descricao, elemento.status, elemento.motivo)))
 }
