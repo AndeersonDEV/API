@@ -92,7 +92,18 @@ div#tabelaUsuarios span.title{
     display: block;
     color: #d29f4e;
 }
-
+div#tabelaUsuarios div{
+    display: flex;
+    justify-content: space-between;
+}
+.atu{
+    font-family: MuseoSans;
+    font-size: 15px;
+    padding: 20px 10px;
+    display: block;
+    color: #d29f4e;
+    align-self: flex-end;
+}
 div#tabelaUsuarios table{
     width: 100%;
     font-family: FuturaPT;
